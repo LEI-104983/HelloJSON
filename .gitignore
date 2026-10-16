@@ -3,4 +3,3 @@ target/
 *.iml
 out/
 dependency-reduced-pom.xml
-data/students.cvs

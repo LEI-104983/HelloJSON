@@ -33,6 +33,13 @@ public class Student {
         this.number = number;
     }
 
+    /**
+     * Devolve o estudante numa linha CSV: numero,nome
+     */
+    public String toCSV() {
+        return number + "," + name;
+    }
+
     @Override
     public String toString() {
         return "Student{name='" + name + "', number=" + number + "}";
